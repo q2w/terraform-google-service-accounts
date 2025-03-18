@@ -94,7 +94,7 @@ spec:
             spec:
               outputExpr: "[\"roles/aiplatform.user\"]"
           - source:
-              source: github.com/terraform-google-modules/terraform-google-pubsub
+              source: github.com/q2w/terraform-google-pubsub
               version: ">= 7.0.0"
             spec:
               outputExpr: "[\"roles/pubsub.editor\"]"
