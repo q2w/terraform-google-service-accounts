@@ -1,4 +1,4 @@
-# Copyright 2024 Google LLC
+# Copyright 2025 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,6 +27,9 @@ spec:
   ui:
     input:
       variables:
+        any_1:
+          name: any_1
+          title: Any 1
         billing_account_id:
           name: billing_account_id
           title: Billing Account Id
@@ -48,6 +51,9 @@ spec:
         grant_xpn_roles:
           name: grant_xpn_roles
           title: Grant Xpn Roles
+        map_any:
+          name: map_any
+          title: Map Any
         names:
           name: names
           title: Names
@@ -63,3 +69,6 @@ spec:
         project_roles:
           name: project_roles
           title: Project Roles
+        set_string:
+          name: set_string
+          title: Set String

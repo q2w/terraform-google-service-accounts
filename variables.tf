@@ -84,3 +84,21 @@ variable "descriptions" {
   description = "List of descriptions for the created service accounts (elements default to the value of `description`)"
   default     = []
 }
+
+variable "any_1" {
+  type        = any
+  description = "any type"
+  default     = null
+}
+
+variable "set_string" {
+  type        = set(string)
+  description = "set of string type"
+  default     = []
+}
+
+variable "map_any" {
+  type        = map(any)
+  description = "map of any type"
+  default     = {}
+}

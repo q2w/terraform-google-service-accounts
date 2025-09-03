@@ -94,6 +94,17 @@ spec:
         description: List of descriptions for the created service accounts (elements default to the value of `description`)
         varType: list(string)
         defaultValue: []
+      - name: any_1
+        description: any type
+        varType: any
+      - name: set_string
+        description: set of string type
+        varType: set(string)
+        defaultValue: []
+      - name: map_any
+        description: map of any type
+        varType: map(any)
+        defaultValue: {}
     outputs:
       - name: email
         description: Service account email (for single use).
