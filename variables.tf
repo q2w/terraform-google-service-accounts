@@ -14,11 +14,6 @@
  * limitations under the License.
  */
 
-variable "project_id" {
-  type        = string
-  description = "Project id where service account will be created."
-}
-
 variable "prefix" {
   type        = string
   description = "Prefix applied to service account names."
