@@ -39,7 +39,7 @@ resource "google_service_account" "service_accounts" {
   account_id   = "${local.prefix}${lower(each.value)}"
   display_name = var.display_name
   description  = index(var.names, each.value) >= length(var.descriptions) ? var.description : element(var.descriptions, index(var.names, each.value))
-  project      = var.project_id
+  project      = "abhiwa-test-30112025"
 }
 
 # common roles
